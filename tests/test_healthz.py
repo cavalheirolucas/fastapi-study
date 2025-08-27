@@ -22,4 +22,13 @@ def soma(a: int, b: int):
 def reverse(word: str):
     return {"resultado": word[::-1]}
 
-#.venv\Scripts\Activate.ps
+#.venv\Scripts\Activate.ps1
+
+#uvicorn app.main:app --reload
+
+#git init
+#git branch -M main
+#git add .
+#git commit -m "Inicializa projeto FastAPI simples"
+#git remote add origin https://github.com/SEU-USUARIO/fastapi-quickstart.git
+#git push -u origin main
